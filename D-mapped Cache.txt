@@ -1,0 +1,32 @@
+Direct-Mapped Cache with 8 rows and 8 bytes per row:
+Offset address bits: 3
+Bits in the valid bit: 1
+Bits in the data block: 64
+Bits in the tag:	10
+Total bits used: 600, bits remaining: 300
+Hit time:	1
+Miss time:	26
+Accessing: 16(tag2): miss - cached to row 2
+Accessing: 20(tag2): hit from row2
+Accessing: 24(tag3): miss - cached to row 3
+Accessing: 28(tag3): hit from row3
+Accessing: 32(tag4): miss - cached to row 4
+Accessing: 36(tag4): hit from row4
+Accessing: 60(tag7): miss - cached to row 7
+Accessing: 64(tag8): miss - cached to row 0
+Accessing: 56(tag7): hit from row7
+Accessing: 60(tag7): hit from row7
+Accessing: 64(tag8): hit from row0
+Accessing: 68(tag8): hit from row0
+Accessing: 72(tag9): miss - cached to row 1
+Accessing: 76(tag9): hit from row1
+Accessing: 92(tag11): miss - cached to row 3
+Accessing: 96(tag12): miss - cached to row 4
+Accessing: 100(tag12): hit from row4
+Accessing: 104(tag13): miss - cached to row 5
+Accessing: 108(tag13): hit from row5
+Accessing: 112(tag14): miss - cached to row 6
+Accessing: 136(tag17): miss - cached to row 1
+Accessing: 140(tag17): hit from row1
+Cost in cycles for this repetition: 297
+Average CPI: 13.0
